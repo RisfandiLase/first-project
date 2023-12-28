@@ -1,0 +1,143 @@
+ body{
+     background-color: #FF9442;
+     margin-top: 140px;
+     background: linear-gradient(to right, #1F3040 0%, #1F3040 50%, #FF9442 50%, #FF9442 100%);
+     display: flex; 
+     justify-content: center;
+
+
+ }
+
+ nav{
+     background-color: white;
+     display: flex;
+     height: 100px;
+     justify-content: right;
+     padding: 1rem;
+     
+
+ }
+
+ nav ul{
+     display: flex;
+     list-style: none;
+     align-items: center;
+     gap: 2rem;
+font-size: 20px;
+margin-right: 70px;
+;
+
+
+ }
+
+ nav ul li a{
+     text-decoration: none;
+     font-family: cambria;
+     color: black;
+     font-weight: 600;
+     padding: 8px 0px;
+     transition: all;
+     transition-duration: 200ms;
+     padding: 0px;
+     
+ }
+
+  nav ul li a:hover{
+     color: #FF9442;
+     border-bottom: 1px solid #FF9442;
+     
+  }
+
+
+.opening{
+     color: black;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 50px;
+     font-weight: bold;
+     line-height: 60px;
+     margin-left: 90px;
+     
+  }
+.main{
+     width: 70%;
+     background-color: white;
+     height: 900px;
+     
+     
+}
+
+.paragraph{
+     color: rgb(88, 88, 88);
+     font-size: 20px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin-left: 90px;
+     line-height: 30px;
+     padding-top: 30px;
+}
+
+.hire{
+     margin-top: 60px;
+     margin-right: 10px;
+     background-color: white;
+     border-color: black;
+     border-width: 1px;
+     color: black;
+     height: 50px;
+     width: 170px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 20px;
+     font-weight: bold;
+     cursor: pointer;
+     border-style: solid;
+     border-radius: 5px;
+
+}
+
+.hire:hover{
+     background-color: #1F3040;
+     color: white;
+     transition: 200ms;
+}
+.hire:active{
+     opacity: 0.7;
+
+}
+
+.myproject:hover{
+     background-color: #1F3040;
+     color: white;
+     transition: 200ms;
+
+}
+.myproject:active{
+     opacity: 0.7;
+}
+
+.myproject{
+     margin-top: 60px;
+     margin-left: 0px;
+     background-color: white;
+     border-color: black;
+     border-width: 1px;
+     color: black;
+     height: 50px;
+     width: 170px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 20px;
+     font-weight: bold;
+     cursor: pointer;
+     border-style: solid;
+     border-radius: 5px;
+}
+
+img{
+    
+     height: 400px;
+     position: absolute;
+     margin-left: 848px;
+     margin-top: 170px;
+     border-style: solid; 
+     border-color: #1F3040;
+     box-shadow: 8px 8px 4px #1F3040;
+}
+
